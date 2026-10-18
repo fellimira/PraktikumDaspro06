@@ -10,6 +10,7 @@ public class StudiKasus206 {
         int missingDocuments;
         System.out.print("Enter student name: ");
         studentName = sc.nextLine();
+        System.out.println("Checking award eligibility for " + studentName + ".");
         System.out.print("Enter activity type (BELMAWA/BAKORMA/Mandiri/PKM/Others): ");
         activityType = sc.nextLine();
         if (activityType.equalsIgnoreCase("BELMAWA") || activityType.equalsIgnoreCase("BAKORMA") || activityType.equalsIgnoreCase("Mandiri")) {
